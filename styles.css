@@ -1,23 +1,78 @@
 
-body{background:#171717; font-size:20px; font-family: 'Handlee';}
-.postcard{background: white; width:500px;height:350px; position: absolute;top:50%; left:50%;
-transform: translate(-50%,-50%); padding:15px;}
-input{font-size:20px;font-family: 'Handlee', cursive;}
+body{
+    background:#171717; 
+    font-size:20px; 
+    font-family: 'Handlee';
+}
+.postcard{
+    background: white; 
+    width:500px;
+    height:350px; 
+    position: absolute;
+    top:50%; left:50%;
+    transform: translate(-50%,-50%); 
+    padding:15px;
+}
+input{
+    font-size:20px;
+    font-family: 'Handlee', cursive;
+}
 
 
-.p-header{ overflow:hidden;}
-    h1{font-size:35px; float:left}
-    .p-header img{max-width:60px;float:right;}
-.p-body{overflow:hidden;}
-    .pbright{float: right;width:50%; }
-        .pbright input{display:block;}
-       .pbright input[type=text]{border:none; border-bottom:1px solid rgb(182, 180, 180);font-family: 'Handlee',cursive;
-     width:240;margin-bottom:10px;padding:5px; font-size:20px;}
-        .pbleft{float:left;width:50%;}
-           .pbleft > p:first-of-type { margin-top:0px}
-.p-footer{overflow:hidden;text-align:center;}
+.p-header{ 
+    overflow:hidden;
+}
+    
+h1{
+    font-size:35px; 
+    float:left;
+}
 
-    .p-footer input[type=submit]{border:none; border-bottom:2px solid gray; background-color: rgb(182, 180, 180); padding:5px; font-size:20px;}
+.p-header img{
+    max-width:60px;
+    float:right;
+}
+
+.p-body{
+    overflow:hidden;
+}
+
+.pbright{
+    float: right;width:50%; 
+}
+
+.pbright input{
+    display:block;
+}
+.pbright input[type=text]{
+    border:none; 
+    border-bottom:1px solid rgb(182, 180, 180);
+    font-family: 'Handlee',cursive;
+    width:240;
+    margin-bottom:10px;
+    padding:5px; 
+    font-size:20px;
+}
+
+.pbleft{
+    float:left;
+    width:50%;
+}
+.pbleft > p:first-of-type {
+    margin-top:0px;
+}
+.p-footer{
+    overflow:hidden;
+    text-align:center;
+}
+
+.p-footer input[type=submit]{
+    border:none; 
+    border-bottom:2px solid gray; 
+    background-color: rgb(182, 180, 180); 
+    padding:5px; 
+    font-size:20px;
+}
 
             
             
