@@ -1,34 +1,32 @@
-<! –- We must always begin with an HTML label to show the browser that this is a document with an HTML format. — >
+<!-- We must always begin with an HTML label to show the browser that this is a document with an HTML format. -->
 <!DOCTYPE html>
 <html>
    <head>
-   <! — Inside the head tag we will define all the information the browser needs in order to start interpreting the page. –>
-   <head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-</head>
+ <!-- Inside the head tag we will define all the information the browser needs in order to start interpreting the page. -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
         <title>Postcard</title>
-</head>
-   <body>
-   <form class="postcard" action="https://formspree.io/f/xknpbpdq" method="Post">
-        <div class="p-header">
-            <h1>My Postcard</h1>
-            <img src="https://assets.breatheco.de/apis/img/icon/4geeks.png">
-        </div>
-        <div class="p-body">
-            <div class="pbleft">
+    </head>
+    <body>
+        <form class="postcard" action="https://formspree.io/f/xknpbpdq" method="Post">
+            <div class="p-header">
+                <h1>My Postcard</h1>
+                <img src="https://assets.breatheco.de/apis/img/icon/4geeks.png">
+            </div>
+            <div class="p-body">
+                <div class="pbleft">
                     <p >Look how awesome! This is a postcard that i created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
                     <p >This is so cool, can't wait to start doing more stuff!</p>
-            </div>
-            <div class="pbright">
+                </div>
+                <div class="pbright">
                     <input type="text" placeholder="Some name" name="fullname" id="name" required>
                     <input type="text" placeholder="Some Email" name="email" id="email" required>
                     <input type="text" placeholder="Some comment" name="message" id="comment" required>
                 </div>
-        </div>
-        <div class="p-footer">
+            </div>
+            <div class="p-footer">
                 <input type="submit" value="Send My Postcard">
-        </div>
-    </form>
-   </body>
+            </div>
+        </form>
+    </body>
 </html>
